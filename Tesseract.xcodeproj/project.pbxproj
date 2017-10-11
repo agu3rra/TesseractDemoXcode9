@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0A80A51F8D5F0A005204A1 /* sample2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A80A41F8D5F0A005204A1 /* sample2.JPG */; };
+		2D0A80A61F8D63DB005204A1 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A80A71F8D63DB005204A1 /* TesseractOCR.framework */; };
 		2D294E171F87B03200AFF87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D294E161F87B03200AFF87E /* AppDelegate.swift */; };
 		2D294E191F87B03200AFF87E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D294E181F87B03200AFF87E /* ViewController.swift */; };
 		2D294E1C1F87B03200AFF87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D294E1A1F87B03200AFF87E /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0A80A41F8D5F0A005204A1 /* sample2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.JPG; sourceTree = "<group>"; };
+		2D0A80A71F8D63DB005204A1 /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D294E131F87B03200AFF87E /* Tesseract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesseract.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D294E161F87B03200AFF87E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D294E181F87B03200AFF87E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +32,7 @@
 		2D294E1D1F87B03200AFF87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D294E201F87B03200AFF87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D294E221F87B03200AFF87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D294E281F87B03D00AFF87E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		2D294E281F87B03D00AFF87E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DB1139F1F87FA870003E52E /* sample1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpg; sourceTree = "<group>"; };
 		2DB113A61F87FC630003E52E /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		2DDA935A1F87B10A00D4064C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0A80A61F8D63DB005204A1 /* TesseractOCR.framework in Frameworks */,
 				2DDA935D1F87B11000D4064C /* libz.tbd in Frameworks */,
 				2DDA935B1F87B10B00D4064C /* CoreImage.framework in Frameworks */,
 				F1DB436142620E44E96B2BE5 /* Pods_Tesseract.framework in Frameworks */,
@@ -89,6 +94,7 @@
 		2DB113A11F87FA8C0003E52E /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				2D0A80A41F8D5F0A005204A1 /* sample2.JPG */,
 				2DB1139F1F87FA870003E52E /* sample1.jpg */,
 			);
 			path = samples;
@@ -97,6 +103,7 @@
 		36BD3DCA52BDE68858E8D5E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D0A80A71F8D63DB005204A1 /* TesseractOCR.framework */,
 				2DDA935C1F87B11000D4064C /* libz.tbd */,
 				2DDA935A1F87B10A00D4064C /* CoreImage.framework */,
 				B23BDC7C8BA414FEADA53122 /* Pods_Tesseract.framework */,
@@ -179,6 +186,7 @@
 				2D294E1E1F87B03200AFF87E /* Assets.xcassets in Resources */,
 				2D294E291F87B03D00AFF87E /* Podfile in Resources */,
 				2DB113A01F87FA870003E52E /* sample1.jpg in Resources */,
+				2D0A80A51F8D5F0A005204A1 /* sample2.JPG in Resources */,
 				2D294E1C1F87B03200AFF87E /* Main.storyboard in Resources */,
 				2DB113A71F87FC630003E52E /* tessdata in Resources */,
 			);
